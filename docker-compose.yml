@@ -1,0 +1,21 @@
+version: '3.3'
+
+services:
+  neo4j:
+    image: neo4j
+    container_name: neo4j
+    environment:
+      NEO4J_AUTH: neo4j/admin
+
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    volumes:
+      - dbneo:/data/
+
+
+
+volumes:
+  dbneo:
+#docker volume create dbneo
+#http://localhost:7474/browser/
