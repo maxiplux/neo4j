@@ -1,7 +1,7 @@
 # Example of Neo4J working on spring Boot
   **Problem**  : Try to find all families  from some node 
   
-All that your services are on docker-compose.yml
+Services are on docker-compose.yml
 ------------
 
 
